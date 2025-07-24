@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Editor filer
+.vscode/
+*.swp
+*.swo
+
+# Temp filer
+*~
+.tmp/
+
+# Node modules (hvis du bruker Tailwind CLI senere)
+node_modules/ 
