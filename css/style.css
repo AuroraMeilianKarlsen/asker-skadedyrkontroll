@@ -323,7 +323,12 @@ body {
   border-bottom: none;
 }
 
-/* Contact Page */
+/* Contact Section (Homepage) */
+.contact {
+  padding: 80px 0;
+  background: #fff;
+}
+
 .contact-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -331,6 +336,8 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+/* Contact Page */
 
 .contact-details {
   margin: 2rem 0;
@@ -496,6 +503,10 @@ body {
   .contact-content {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .contact {
+    padding: 60px 0;
   }
 
   .services-grid {
